@@ -24,6 +24,11 @@
       margin: 10px;
       text-align: center;
     }
+
+    .button{
+      background-color: #edd7f3;
+      border-color: #b58fbb;
+    }
   </style>
 </head>
 
@@ -47,14 +52,92 @@
 
 <div class="flex-container">
   <div class="row">
-    <!--images-->
-    <div class="col-sm-7">
-      <!--images-->
-    </div>
     <div class="col-sm-5">
       <h3>Visit Los Angeles</h3>
-      <p>(...)Click on each of the images to learn more about an area in Los Angeles.</p>
+      <p>Los Angeles has many unique places and experiences to offer to tourists, click on the buttons below each image to learn more about places in Los Angeles.</p>
+    
+      <!--popular places and experiences section-->
+      <img src=/images/popularplaces.jpg alt="LACMA image" width=100%>
+
+      <button type="button" class="btn button btn-block" data-toggle="modal" data-target="#popularplacesModal">
+        <h5>Popular Places and Experiences</h5>
+      </button>
+
+      <div class="modal fade" id="popularplacesModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h3 class="modal-title">Popular Places and Experiences</h3>
+            </div>
+            <div class="modal-body">
+              <h4>The Griffith Observatory</h4>
+              <p><a href="https://griffithobservatory.org/">The Griffith Observatory</a> sits at the top of Griffith Park, you may recognize it as being one of the locations used in the film La La Land. Besides from the observatory you can also enjoy lots of great hiking trails in the park and wonderful views of the city as well as the Hollywood sign from the top of Mount Hollywood.</p>
+              <h4>Grand Central Market</h4>
+              <p><a href="https://grandcentralmarket.com/">Grand Central Market</a> has been a staple of Downtown Los Angeles since it opened in 1917. Home to 40 different vendors operating out of individual stalls, grand central market offers a wide range of restaurants and other unique stalls to choose from. The grand central market, as the name suggests, is also in a very central area of downtown Los Angeles making it a great place to eat if spending the day downtown visiting other popular downtown destinations such as Little Tokyo, the Angels Flight Railway, and the Bradbury Building.</p>
+              <h4>The Hollywood Bowl</h4>
+              <p><a href="https://www.hollywoodbowl.com/">The Hollywood Bowl</a> is an iconic outdoor amphitheater and concert venue located in the Hollywood Hills and is the perfect place to see a concert, orchestra performance, or comedy show during the summer.</p>
+              <h4>The Huntington Gardens</h4>
+              <p><a href="https://huntington.org/botanical-gardens">The Huntington Gardens</a> span over 130 acres with 16 beautiful themed gardens, making it the perfect place to spend an afternoon.</p>
+              <h4>Santa Monica Pier</h4>
+              <p><a href="https://www.santamonicapier.org/">The Santa Monica Pier</a> is a great place to stop by if spending a day at the beach. With an amusement park and plenty of restaurants and shopping, this pier over the pacific ocean is one of the highlights of the beaches in Los Angeles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     </div>
+    <!--images & descriptions-->
+    <div class="col-sm-7">
+      <!--museum section-->
+      <img src=/images/museums.jpg alt="LACMA image" width=100%>
+
+      <button type="button" class="btn button btn-block" data-toggle="modal" data-target="#museumModal">
+        <h5>Museums</h5>
+      </button>
+
+      <div class="modal fade" id="museumModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h3 class="modal-title">Museums</h3>
+            </div>
+            <div class="modal-body">
+              <p>Los Angeles is home to many museums which are some of the best places to visit while in Los Angeles. <a href="http://www.lacma.org">LACMA</a>, the Los Angeles Country Museum of Art, is the largest museum in the western United States and showcases a wide variety of artwork and is home to René Magritte’s “The Treachery of Images” and Pablo Picasso’s “Weeping Woman with Handkerchief”. Located next to LACMA is <a href="http://www.academymuseum.org">The Academy Museum</a>, a newly opened film museum dedicated to the history of the film industry with exhibits displaying props and costumes from iconic films and is an essential visit for anyone who loves films and wants to see behind the scenes of some of the most influential movies made in Hollywood. The <a href="http://www.getty.edu">Getty Museum</a> and the <a href="https://www.getty.edu/visit/villa/">Getty Villa</a> are two of the best museums Los Angeles has to offer. The Getty is home to a varied and impressive collection of artwork from the middle ages to today as well as beautiful gardens while the Getty Villa’s collections consist of ancient Greek and Roman artwork. Another popular museum for those visiting Los Angeles is <a href="https://thebroad.org">The Broad</a>, a museum of contemporary art located in the center of downtown Los Angeles whose exhibits display about 2,000 works of art by more than 200 artists from the last 50 years.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--shopping section-->
+      <img src=/images/shopping.jpg alt="Shopping Street Image" width=100%>
+
+      <button type="button" class="btn button btn-block" data-toggle="modal" data-target="#shoppingModal">
+        <h5>Shopping</h5>
+      </button>
+
+      <div class="modal fade" id="shoppingModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Shopping</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>One of the most popular activities to do in Los Angeles is go shopping at the many unique stores LA has to offer. Whether stopping in at classic Los Angeles stores like the Last Bookstore, Jet Rag, or Amoeba Music, or spending a day looking around larger shopping areas like like Abbot Kinney, Platform, the Grove, the Americana, or Melrose and Fairfax, LA offers some very uncommon and charming stores to spend a day out shopping at.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
 

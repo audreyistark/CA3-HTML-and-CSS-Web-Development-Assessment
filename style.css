@@ -1,5 +1,5 @@
 header {
-  background-image: url("header.jpg");
+  background-image: url("/images/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px;
@@ -33,6 +33,24 @@ h3 {
   font-size: 40px;
   color: #b58fbb;
   text-align: left;
+}
+
+h4 {
+  font-family: "Abel";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #b58fbb;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Abel";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #b58fbb;
+  text-align: center;
 }
 
 p {

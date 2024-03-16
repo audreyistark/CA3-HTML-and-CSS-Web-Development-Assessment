@@ -27,6 +27,11 @@
       margin: 10px;
       text-align: center;
     }
+
+    .button{
+      background-color: #edd7f3;
+      border-color: #b58fbb;
+    }
   </style>
 </head>
 
@@ -39,28 +44,32 @@
   <div></header><div>
 </div>
 
-<!--navigation bar-->
-<div class="flex-container">
-  <nav>
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="history.html">History</a></li>
-      <li><a href="visit.html">Visit</a></li>
-    </ul>
-</div>
-
 <!--OpenStreetMap-->
 <div class="flex-container">
   <div class="row">
-    <div class="col-sm-6">
-    <iframe width=100% height=500px src="https://www.openstreetmap.org/export/embed.html?bbox=-118.89129638671875%2C33.6271854687268%2C-117.60589599609376%2C34.464661171277626&amp;layer=mapnik&amp;marker=34.04695722868002%2C-118.24859619140625" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=34.0470&amp;mlon=-118.2486#map=10/34.0470/-118.2486">View Larger Map</a></small>
+    <div class="col-sm-4">
+      <img src="/images/home.jpg" alt="View of downtown Los Angeles" width="100%" height="100%">
+      <a href="home.html">
+        <button type="button" class="btn button btn-block">
+          <h5>Home</h5>
+        </button>
+      </a>
     </div>
-    <!--images-->
-    <div class="col-sm-3">
-      <img src="city.jpg" alt="View of downtown Los Angeles" width="100%" height="100%">
+    <div class="col-sm-4">
+      <img src="/images/history.jpg" alt="View of Griffith Observatory" width="100%" height="100%">
+      <a href="history.html">
+        <button type="button" class="btn button btn-block">
+          <h5>History</h5>
+        </button>
+      </a>
     </div>
-    <div class="col-sm-3">
-      <img src="beach.jpg" alt="Stairs to Beach" width="100%" height="100%">
+    <div class="col-sm-4">
+      <img src="/images/visit.jpg" alt="Palm Trees" width="100%" height="100%">
+      <a href="visit.html">
+        <button type="button" class="btn button btn-block">
+          <h5>Visit</h5>
+        </button>
+      </a>
     </div>
   </div>
 </div>
